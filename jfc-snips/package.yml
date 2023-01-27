@@ -78,3 +78,7 @@ matches:
             <p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p>
             <p>If you use our app or <a href="https://portal.jacksflightclub.com/snacks">log in to our portal</a>, you'll often find more dates for these routes (and many more short-haul deals!) in the Snacks section.</p>
             <p><strong>p.s.</strong> In case you're wondering, this week's banner image features !</p>
+
+  - trigger: "/tuionly"
+    replace: >
+            <p>Click the blue button below to see TUI's calendar page - it&nbsp;makes finding cheap dates easy. Simply select your departure airport, and use the arrows on the top row of the calendar to scroll through the available dates.</p>Pick one of the trips at the prices listed above and click on the yellow 'Continue' button to finish your booking. Online Travel Agencies do not sell TUI flights cheaper than the airline.</p>
