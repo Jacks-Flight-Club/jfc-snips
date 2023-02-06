@@ -11,7 +11,6 @@ matches:
   - trigger: "/covid"
     replace: "<p><strong>Essential travel info: </strong></p><p style='text-align: left;'><span style='text-decoration: underline;'>Flight changes</span>: When an airline offers a flexible change or cancellation policy, we'll note that here. Most airlines do charge a fee for making changes or cancelling a flight now.</p><p style='text-align: left;'><span style='text-decoration: underline;'>Entry Requirements</span>: You can enter most countries normally with proof of vaccination - <a href='https://www.skyscanner.net/travel-restrictions'>Skyscanner</a> has a useful tool for double-checking requirements. Some countries do have extra testing or quarantine rules to enter if you're unvaccinated.</p>"
 
-
   - trigger: "/gfonly"
     replace: "<p>We recommend Google Flights to find this deal because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - trying different lengths can reveal more options.</p><p>Once you find dates at the deal price we listed, get a link to book directly with the airline by selecting the outbound and return flights.</p>"
 
@@ -78,6 +77,9 @@ matches:
             <p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p>
             <p>If you use our app or <a href="https://portal.jacksflightclub.com/snacks">log in to our portal</a>, you'll often find more dates for these routes (and many more short-haul deals!) in the Snacks section.</p>
             <p><strong>p.s.</strong> In case you're wondering, this week's banner image features !</p>
+  - trigger: "/ryanonly"
+    replace: >
+            <p>Go to Ryanair's destination cheap fare finder through the blue button below.</p><p>At the bottom of the page, you'll see a calendar view of dates with prices under the dates Ryanair fly. Simply scroll through until you find dates you like, select them and click 'View Flights' to complete your booking with Ryanair.</p><table class="go-dark-bg-3" role="presentation" style="width: 90%; background: #FFEFD6; border-radius: 6px;" cellspacing="0" cellpadding="0" border="0"align="center"><tbody><tr><td class="go-light" style="text-align: left; font-weight: 400; font-size: 16px; color: #000000; border-radius: 6px; padding: 0 10px 010px;"><p><b>👀 Important</b>: Prices are in shown in Euro on the calendar, but the currency switches to GBP once you pick flights.</p></td></tr></tbody></table>
 
   - trigger: "/tuionly"
     replace: >
