@@ -79,7 +79,7 @@ matches:
             <p><strong>p.s.</strong> In case you're wondering, this week's banner image features !</p>
   - trigger: "/ryanonly"
     replace: >
-            <p>Go to Ryanair's destination cheap fare finder through the blue button below.</p><p>At the bottom of the page, you'll see a calendar view of dates with prices under the dates Ryanair fly. Simply scroll through until you find dates you like, select them and click 'View Flights' to complete your booking with Ryanair.</p><table class="go-dark-bg-3" role="presentation" style="width: 90%; background: #FFEFD6; border-radius: 6px;" cellspacing="0" cellpadding="0" border="0"align="center"><tbody><tr><td class="go-light" style="text-align: left; font-weight: 400; font-size: 16px; color: #000000; border-radius: 6px; padding: 0 10px 010px;"><p><b>👀 Important</b>: Prices are in shown in Euro on the calendar, but the currency switches to GBP once you pick flights.</p></td></tr></tbody></table>
+            <p>Go to Ryanair's destination cheap fare finder through the blue button below.</p><p>At the bottom of the page, you'll see a calendar view of dates with prices under the dates Ryanair fly. Simply scroll through until you find dates you like, select them and click 'View Flights' to complete your booking with Ryanair.</p>
 
   - trigger: "/tuionly"
     replace: >
