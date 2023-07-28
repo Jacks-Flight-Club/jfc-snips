@@ -84,3 +84,6 @@ matches:
   - trigger: "/tuionly"
     replace: >
             <p>Click the blue button below to see TUI's calendar page - it&nbsp;makes finding cheap dates easy. Simply select your departure airport, and use the arrows on the top row of the calendar to scroll through the available dates.</p>Pick one of the trips at the prices listed above and click on the yellow 'Continue' button to finish your booking. Online Travel Agencies do not sell TUI flights cheaper than the airline.</p>
+  - trigger: "/gfnote"
+    replace: >
+            <p><strong>Note:</strong> The price shown on the Google Flight's calendar may slightly differ to the price we have listed. The is due to the calendar not yet updating to reflect a price change.</p><p>However, once you have selected your dates and clicked through to book with either the airline or an OTA the price should adjust to match what we listed.</p>
