@@ -12,33 +12,33 @@ matches:
     replace: "<p><strong>Essential travel info: </strong></p><p style='text-align: left;'><span style='text-decoration: underline;'>Flight changes</span>: When an airline offers a flexible change or cancellation policy, we'll note that here. Most airlines do charge a fee for making changes or cancelling a flight now.</p><p style='text-align: left;'><span style='text-decoration: underline;'>Entry Requirements</span>: You can enter most countries normally with proof of vaccination - <a href='https://www.skyscanner.net/travel-restrictions'>Skyscanner</a> has a useful tool for double-checking requirements. Some countries do have extra testing or quarantine rules to enter if you're unvaccinated.</p>"
 
   - trigger: "/gfonly"
-    replace: "<p>We recommend Google Flights to find this deal because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - trying different lengths can reveal more options.</p><p>Once you find dates at the deal price we listed, get a link to book directly with the airline by selecting the outbound and return flights.</p>"
+    replace: "<p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - trying different lengths can reveal more options.</p><p>Once you find dates at the price we listed, get a link to book directly with the airline by selecting the outbound and return flights.</p>"
 
   - trigger: "/gfota"
-    replace: "<p>We recommend Google Flights to find this deal because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - trying different lengths can reveal more options.</p><p>Once you find dates at the deal price we listed, select the outbound and return flights to see booking options. You can book with an Online Travel Agent for the lowest price, or go directly with the airline.</p>"
+    replace: "<p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - trying different lengths can reveal more options.</p><p>Once you find dates at the price we listed, select the outbound and return flights to see booking options. You can book with an Online Travel Agent for the lowest price, or go directly with the airline.</p>"
 
   - trigger: "/gf1"
-    replace: "<p>We recommend Google Flights to find this deal because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - trying different lengths can reveal more options.</p><p>You can find the cheapest fares with an Online Travel Agent in step two, or book with the airline once you select both flights on Google Flights.</p>"
+    replace: "<p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - trying different lengths can reveal more options.</p><p>You can find the cheapest fares with an Online Travel Agent in step two, or book with the airline once you select both flights on Google Flights.</p>"
 
   - trigger: "/sky2"
-    replace: "<p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Skyscanner lists OTAs that are the cheapest for this deal - see an example through the blue button below.</p><p>On Skyscanner, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Skyscanner with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>"
+    replace: "<p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Skyscanner lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Skyscanner, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Skyscanner with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>"
 
   - trigger: "/mom2"
-    replace: "<p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Momondo lists OTAs that are the cheapest for this deal - see an example through the blue button below.</p><p>On Momondo, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Momondo with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>"
+    replace: "<p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Momondo lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Momondo, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Momondo with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>"
 
   - trigger: "/southwest"
-    replace: "<p>Use Southwest's Low Fare Calendar to find these deal fares.</p><p>Type in your departure, destination and travel month and press ‘Search’. On the next page, you’ll see the cheapest days to fly on a calendar view.</p><p>Once you’ve selected dates, complete your booking with Southwest.</p>"
+    replace: "<p>Use Southwest's Low Fare Calendar to find these fares.</p><p>Type in your departure, destination and travel month and press ‘Search’. On the next page, you’ll see the cheapest days to fly on a calendar view.</p><p>Once you’ve selected dates, complete your booking with Southwest.</p>"
 
   - trigger: "/wizzonly"
     replace: >
-            <p>Start finding this deal on the Wizz Air website through the blue button below.</p>
+            <p>Start finding these trips on the Wizz Air website through the blue button below.</p>
             <p>Enter the origin and destination airports you want from those we have listed above.</p>
             <p>The page will reload with a calendar view. Change the calendar month to one you're interested in, and then look for the cheapest dates (highlighted in light blue on the calendar).</p>
             <p>Once you've chosen your outbound and return flights, click "Start Booking" to continue. The airline offers the best price, so there&rsquo;s no need to compare with Online Travel Agencies.</p>
   
   - trigger: "/luftonly"
     replace: >
-            <p>Start finding this deal using Lufthansa's price calendar tool, through the blue button below.</p>
+            <p>Start finding these trips using Lufthansa's price calendar tool, through the blue button below.</p>
             <p>Scroll down until you see the monthly fare calendar. Prices shown are for trip lengths of 14 days by default, but adjusting this can reveal more possible departure dates - the monthly view will refresh with new price data. Select a month to view the prices day-by-day.</p>
             <p>Once you've found a trip you like, choose the departure date and then select the yellow "Book now" button.</p>
             <p>On the next page, pick the flights with the lowest price and complete your booking with the airline.</p>
@@ -51,15 +51,15 @@ matches:
 
 
   - trigger: "/ukteaser"
-    replace: "This week you missed deals to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more.."
+    replace: "This week you missed trips to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more.."
 
 
   - trigger: "/euteaser"
-    replace: "This week you missed deals to COUNTRY at € return, *FEATURE* in COUNTRY at € return, *FEATURE* flights to COUNTRY at € return, and more.."
+    replace: "This week you missed trips to COUNTRY at € return, *FEATURE* in COUNTRY at € return, *FEATURE* flights to COUNTRY at € return, and more.."
 
 
   - trigger: "/usteaser"
-    replace: "This week you missed deals to COUNTRY at $ round trip, *FEATURE* flights to COUNTRY at $ round trip, *FEATURE* to COUNTRY at $ round trip, and more..."
+    replace: "This week you missed trips to COUNTRY at $ round trip, *FEATURE* flights to COUNTRY at $ round trip, *FEATURE* to COUNTRY at $ round trip, and more..."
 
 
   - trigger: "/important"
@@ -75,7 +75,7 @@ matches:
             <p>Once a week, we collect all the best value short-haul weekend trips we find from every airport in the UK &amp; Ireland.</p>
             <p>Our goal is to dig out a variety of short getaways that go easy on your annual leave, no matter where you are!</p>
             <p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p>
-            <p>If you use our app or <a href="https://portal.jacksflightclub.com/snacks">log in to our portal</a>, you'll often find more dates for these routes (and many more short-haul deals!) in the Snacks section.</p>
+            <p>If you use our app or <a href="https://portal.jacksflightclub.com/snacks">log in to our portal</a>, you'll often find more dates for these routes (and many more short-haul trips!) in the Snacks section.</p>
             <p><strong>p.s.</strong> In case you're wondering, this week's banner image features !</p>
   - trigger: "/ryanonly"
     replace: >
