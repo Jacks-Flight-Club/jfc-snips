@@ -44,7 +44,7 @@ matches:
             <p>On the next page, pick the flights with the lowest price and complete your booking with the airline.</p>
   
   - trigger: "/luftnote"
-    replace: "<p><strong>Note:</strong> If you plan to add checked luggage with Lufthansa, it's cheaper to select the fare class that includes it, rather than add it as an extra.</p><p>Google Flights takes you to a page on their website with the fare class already selected. To change it, click the back button in the bottom left and choose your flights again.</p>"
+    replace: "<p><strong>Note:</strong> If you plan to add checked luggage with Lufthansa, it's cheaper to select the fare class that includes it, rather than add it as an extra.</p><p>Google Flights takes you to a page on their website with the fare class already selected. To change it, click the itinerary, 'Modify', and choose your flights again.</p>"
 
   - trigger: "/flex"
     replace: "<strong>Note:</strong> Airlines do tend to offer more flexibility for flight changes, so if you're at all worried about having to move your booking later down the line we recommend spending a little extra to book directly with the airline."
