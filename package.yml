@@ -10,7 +10,12 @@ matches:
 
   - trigger: "/covid"
     replace: >
-    <p><strong>Essential travel info: </strong></p><p style='text-align: left;'><span style='text-decoration: underline;'>Flight changes</span>: When an airline offers a flexible change or cancellation policy, we'll note that here. Most airlines do charge a fee for making changes or cancelling a flight now.</p><p style='text-align: left;'><span style='text-decoration: underline;'>Entry Requirements</span>: You can enter most countries normally with proof of vaccination - <a href='https://www.skyscanner.net/travel-restrictions'>Skyscanner</a> has a useful tool for double-checking requirements. Some countries do have extra testing or quarantine rules to enter if you're unvaccinated.</p>
+    "<p><strong>Essential travel info: </strong></p><p style='text-align left;'><span style='text-decoration: underline;'>
+    Flight changes</span>: When an airline offers a flexible change or cancellation policy, we'll note that here. Most airlines
+    do charge a fee for making changes or cancelling a flight now.</p><p style='text-align: left;'>
+    <span style='text-decoration: underline;'>Entry Requirements</span>: You can enter most countries normally with proof of vaccination
+    - <a href='https://www.skyscanner.net/travel-restrictions'>Skyscanner</a> has a useful tool for double-checking requirements.
+    Some countries do have extra testing or quarantine rules to enter if you're unvaccinated.</p>"
 
   - trigger: "/gfonly"
     replace: >
@@ -20,7 +25,7 @@ matches:
 
   - trigger: "/gfota"
     replace: >
-    <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>Once you find dates at the cheapest price, select the outbound and return flights to see booking options. You can book with an Online Travel Agent for the lowest price, or go directly with the airline.</p>
+    "<p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>Once you find dates at the cheapest price, select the outbound and return flights to see booking options. You can book with an Online Travel Agent for the lowest price, or go directly with the airline.</p>"
 
   - trigger: "/gf1"
     replace: >

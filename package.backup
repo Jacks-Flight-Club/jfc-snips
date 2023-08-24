@@ -10,7 +10,7 @@ matches:
 
   - trigger: "/covid"
     replace: >
-    <p><strong>Essential travel info: </strong></p><p style='text-align left;'><span style='text-decoration: underline;'>Flight changes</span>: When an airline offers a flexible change or cancellation policy, we'll note that here. Most airlines do charge a fee for making changes or cancelling a flight now.</p><p style='text-align: left;'><span style='text-decoration: underline;'>Entry Requirements</span>: You can enter most countries normally with proof of vaccination - <a href='https://www.skyscanner.net/travel-restrictions'>Skyscanner</a> has a useful tool for double-checking requirements. Some countries do have extra testing or quarantine rules to enter if you're unvaccinated.</p>
+    <p><strong>Essential travel info: </strong></p><p style='text-align: left;'><span style='text-decoration: underline;'>Flight changes</span>: When an airline offers a flexible change or cancellation policy, we'll note that here. Most airlines do charge a fee for making changes or cancelling a flight now.</p><p style='text-align: left;'><span style='text-decoration: underline;'>Entry Requirements</span>: You can enter most countries normally with proof of vaccination - <a href='https://www.skyscanner.net/travel-restrictions'>Skyscanner</a> has a useful tool for double-checking requirements. Some countries do have extra testing or quarantine rules to enter if you're unvaccinated.</p>
 
   - trigger: "/gfonly"
     replace: >
