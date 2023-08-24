@@ -9,97 +9,123 @@ parent: default
 matches:
 
   - trigger: "/covid"
-    replace: "<p><strong>Essential travel info: </strong></p><p style='text-align: left;'><span style='text-decoration: underline;'>Flight changes</span>: When an airline offers a flexible change or cancellation policy, we'll note that here. Most airlines do charge a fee for making changes or cancelling a flight now.</p><p style='text-align: left;'><span style='text-decoration: underline;'>Entry Requirements</span>: You can enter most countries normally with proof of vaccination - <a href='https://www.skyscanner.net/travel-restrictions'>Skyscanner</a> has a useful tool for double-checking requirements. Some countries do have extra testing or quarantine rules to enter if you're unvaccinated.</p>"
+    replace: >
+    <p><strong>Essential travel info: </strong></p><p style='text-align left;'><span style='text-decoration: underline;'>Flight changes</span>: When an airline offers a flexible change or cancellation policy, we'll note that here. Most airlines do charge a fee for making changes or cancelling a flight now.</p><p style='text-align: left;'><span style='text-decoration: underline;'>Entry Requirements</span>: You can enter most countries normally with proof of vaccination - <a href='https://www.skyscanner.net/travel-restrictions'>Skyscanner</a> has a useful tool for double-checking requirements. Some countries do have extra testing or quarantine rules to enter if you're unvaccinated.</p>
 
   - trigger: "/gfonly"
-    replace: "<p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p>
-<p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p>
-<p>Once you find dates at the price we listed, get a link to book directly with the airline by selecting the outbound and return flights.</p>"
+    replace: >
+    <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p>
+    <p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p>
+    <p>Once you find dates at the price we listed, get a link to book directly with the airline by selecting the outbound and return flights.</p>
 
   - trigger: "/gfota"
-    replace: "<p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>Once you find dates at the cheapest price, select the outbound and return flights to see booking options. You can book with an Online Travel Agent for the lowest price, or go directly with the airline.</p>"
+    replace: >
+    <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>Once you find dates at the cheapest price, select the outbound and return flights to see booking options. You can book with an Online Travel Agent for the lowest price, or go directly with the airline.</p>
 
   - trigger: "/gf1"
-    replace: "<p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>You can find the cheapest fares with an Online Travel Agent in step two, or book with the airline once you select both flights on Google Flights.</p>"
+    replace: >
+    <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>You can find the cheapest fares with an Online Travel Agent in step two, or book with the airline once you select both flights on Google Flights.</p>
 
   - trigger: "/sky2"
-    replace: "<p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Skyscanner lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Skyscanner, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Skyscanner with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>"
+    replace: >
+    <p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Skyscanner lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Skyscanner, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Skyscanner with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>
 
   - trigger: "/mom2"
-    replace: "<p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Momondo lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Momondo, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Momondo with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>"
+    replace: >
+    <p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Momondo lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Momondo, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Momondo with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>
 
   - trigger: "/southwest"
-    replace: "<p>Use Southwest's Low Fare Calendar to find these fares.</p><p>Type in your departure, destination and travel month and press ‘Search’. On the next page, you’ll see the cheapest days to fly on a calendar view.</p><p>Once you’ve selected dates, complete your booking with Southwest.</p>"
+    replace: >
+    <p>Use Southwest's Low Fare Calendar to find these fares.</p><p>Type in your departure, destination and travel month and press ‘Search’. On the next page, you’ll see the cheapest days to fly on a calendar view.</p><p>Once you’ve selected dates, complete your booking with Southwest.</p>
 
   - trigger: "/wizzonly"
-    replace: "<p>Start finding these trips on the Wizz Air website through the blue button below.</p>
-<p>Enter the origin and destination airports you want from those we have listed above.</p>
-<p>The page will reload with a calendar view. Change the calendar month to one you're interested in, and then look for the cheapest dates (highlighted in light blue on the calendar).</p>
-<p>Once you've chosen your outbound and return flights, click "Start Booking" to continue. The airline offers the best price, so there’s no need to compare with Online Travel Agencies.</p>
-<p><strong>Note</strong>: you'll see discounted prices listed on Wizz Air's website, but you need to sign up to the Wizz Discount Club to access them. Read our guide on whether it's worth it <a href="https://jacksflightclub.com/flight-quick-guides-page#wizz-air">here</a>.  </p>"
+    replace: >
+    <p>Start finding these trips on the Wizz Air website through the blue button below.</p>
+    <p>Enter the origin and destination airports you want from those we have listed above.</p>
+    <p>The page will reload with a calendar view. Change the calendar month to one you're interested in, and then look for the cheapest dates (highlighted in light blue on the calendar).</p>
+    <p>Once you've chosen your outbound and return flights, click "Start Booking" to continue. The airline offers the best price, so there&rsquo;s no need to compare with Online Travel Agencies.</p>
   
   - trigger: "/luftonly"
     replace: >
-            <p>Start finding these trips using Lufthansa's price calendar tool, through the blue button below.</p>
-            <p>Scroll down until you see the monthly fare calendar. Prices shown are for trip lengths of 14 days by default, but adjusting this can reveal more possible departure dates - the monthly view will refresh with new price data. Select a month to view the prices day-by-day.</p>
-            <p>Once you've found a trip you like, choose the departure date and then select the yellow "Book now" button.</p>
-            <p>On the next page, pick the flights with the lowest price and complete your booking with the airline.</p>
+    <p>Start finding these trips using Lufthansa's price calendar tool, through the blue button below.</p>
+    <p>Scroll down until you see the monthly fare calendar. Prices shown are for trip lengths of 14 days by default, but adjusting this can reveal more possible departure dates - the monthly view will refresh with new price data. Select a month to view the prices day-by-day.</p>
+    <p>Once you've found a trip you like, choose the departure date and then select the yellow "Book now" button.</p>
+    <p>On the next page, pick the flights with the lowest price and complete your booking with the airline.</p>
   
   - trigger: "/luftnote"
-    replace: "<p><strong>Note:</strong> If you plan to add checked luggage with Lufthansa, it's cheaper to select the fare class that includes it, rather than add it as an extra.</p>
-<p>Google Flights takes you to a page on their website with the fare class already selected. To change it, click the itinerary, 'Modify', and choose your flights again. Read detailed instructions <a href="https://jacksflightclub.com/flight-quick-guides-page#lufthansa">here</a>. </p>"
+    replace: >
+    <p><strong>Note:</strong> If you plan to add checked luggage with Lufthansa, it's cheaper to select the fare class that includes it, rather than add it as an extra.</p>
+    <p>Google Flights takes you to a page on their website with the fare class already selected. To change it, click the itinerary, 'Modify', and choose your flights again. Read detailed instructions <a href="https://jacksflightclub.com/flight-quick-guides-page#lufthansa">here</a>.</p>
 
   - trigger: "/flex"
-    replace: "<strong>Note:</strong> Airlines do tend to offer more flexibility for flight changes, so if you're at all worried about having to move your booking later down the line we recommend spending a little extra to book directly with the airline."
-
+    replace: >
+    <strong>Note:</strong> Airlines do tend to offer more flexibility for flight changes, so if you're at all worried about having to move your booking later down the line we recommend spending a little extra to book directly with the airline.
 
   - trigger: "/ukteaser"
-    replace: "This week you missed trips to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more.."
-
+    replace: >
+    This week you missed trips to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more..
 
   - trigger: "/euteaser"
-    replace: "This week you missed trips to COUNTRY at € return, *FEATURE* in COUNTRY at € return, *FEATURE* flights to COUNTRY at € return, and more.."
-
+    replace: >
+    This week you missed trips to COUNTRY at € return, *FEATURE* in COUNTRY at € return, *FEATURE* flights to COUNTRY at € return, and more..
 
   - trigger: "/usteaser"
-    replace: "This week you missed trips to COUNTRY at $ round trip, *FEATURE* flights to COUNTRY at $ round trip, *FEATURE* to COUNTRY at $ round trip, and more..."
-
+    replace: >
+    This week you missed trips to COUNTRY at $ round trip, *FEATURE* flights to COUNTRY at $ round trip, *FEATURE* to COUNTRY at $ round trip, and more...
 
   - trigger: "/important"
-    replace: '<table class="go-dark-bg-blue" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:90%; background: #FFEFD6; border-radius: 6px;"><tr><td class="go-light" style="text-align:left; font-weight:400; font-size:16px; color:#000000; border-radius: 6px; padding: 0 10px 0 10px;"><p><b>👀 Important</b>:</p></td></tr></table>'
+    replace: >
+    '<table class="go-dark-bg-blue" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:90%; background: #FFEFD6; border-radius: 6px;"><tr><td class="go-light" style="text-align:left; font-weight:400; font-size:16px; color:#000000; border-radius: 6px; padding: 0 10px 0 10px;"><p><b>👀 Important</b>:</p></td></tr></table>'
 
   - trigger: "/wtbenelux"
-    replace: "<p style="text-align: center;"><strong>Weekend trips from the Netherlands, Belgium &amp; Luxembourg!</strong></p><p>Once a week, we collect all the best value short-haul weekend trips we find from every airport in the Netherlands, Belgium &amp; Luxembourg.</p><p>Our goal is to dig out a variety of short getaways that go easy on your vacation days, no matter where you are!</p><p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p><table class=" go-dark-bg" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; background: #D7F4FF; border-radius: 12px;"><tbody><tr><td class="go-light" align="center" style="text-align: left; color: #000000; border-radius: 6px; padding: 0 10px 0 10px;"><p style="text-align: left;"><strong>Your new weekend trip email!</strong></p><p style="text-align: left;">A few of the improvements we've made:</p><ul><li style="text-align: left;">Our suggestions are cheaper because we're now looking for trips through the coming year, instead of in a specific month.</li><li style="text-align: left;">If you use our app or <a href="https://portal.jacksflightclub.com/snacks">log in to our portal</a>, you'll often find more dates for your local airport in the Snacks section.</li><li style="text-align: left;">You'll also find lots more short-haul trip suggestions without a weekend focus in the Snacks section.</li><li style="text-align: left;">We check prices through the week, so our weekend trip suggestions are always up-to-date when you look on our app and portal.</li></ul></td></tr></tbody></table><p><strong>p.s.</strong> In case you're wondering, this week's banner image features !</p>
-
+    replace: >
+    <p style="text-align: center;"><strong>Weekend trips from the Netherlands, Belgium &amp; Luxembourg!</strong></p><p>Once a week, we collect all the best value short-haul weekend trips we find from every airport in the Netherlands, Belgium &amp; Luxembourg.</p><p>Our goal is to dig out a variety of short getaways that go easy on your vacation days, no matter where you are!</p><p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p><table class=" go-dark-bg" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; background: #D7F4FF; border-radius: 12px;"><tbody><tr><td class="go-light" align="center" style="text-align: left; color: #000000; border-radius: 6px; padding: 0 10px 0 10px;"><p style="text-align: left;"><strong>Your new weekend trip email!</strong></p><p style="text-align: left;">A few of the improvements we've made:</p><ul><li style="text-align: left;">Our suggestions are cheaper because we're now looking for trips through the coming year, instead of in a specific month.</li><li style="text-align: left;">If you use our app or <a href="https://portal.jacksflightclub.com/snacks">log in to our portal</a>, you'll often find more dates for your local airport in the Snacks section.</li><li style="text-align: left;">You'll also find lots more short-haul trip suggestions without a weekend focus in the Snacks section.</li><li style="text-align: left;">We check prices through the week, so our weekend trip suggestions are always up-to-date when you look on our app and portal.</li></ul></td></tr></tbody></table><p><strong>p.s.</strong> In case you're wondering, this week's banner image features City!</p>
 
   - trigger: "/wtuk"
-    replace: "<p style="text-align: center;"><strong>Weekend trips from the UK &amp; Ireland!</strong></p><p>Once a week, we collect all the best value short-haul weekend trips we find from every airport in the UK &amp; Ireland.</p><p>Our goal is to dig out a variety of short getaways that go easy on your annual leave, no matter where you are!</p><p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p><p>If you use our app or <a href="https://portal.jacksflightclub.com/snacks">log in to our portal</a>, you'll often find more dates for these routes (and many more short-haul trips!) in the Snacks section.</p><p><strong>p.s.</strong> In case you're wondering, this week's banner image features !</p>
+    replace: >
+    <p style="text-align: center;"><strong>Weekend trips from the UK &amp; Ireland!</strong></p>
+    <p>Once a week, we collect all the best value short-haul weekend trips we find from every airport in the UK &amp; Ireland.</p>
+    <p>Our goal is to dig out a variety of short getaways that go easy on your annual leave, no matter where you are!</p>
+    <p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p>
+    <p>If you use our app or <a href="https://portal.jacksflightclub.com/snacks">log in to our portal</a>, you'll often find more dates for these routes (and many more short-haul trips!) in the Snacks section.</p>
+    <p><strong>p.s.</strong> In case you're wondering, this week's banner image features City!</p>
+
   - trigger: "/ryanonly"
-    replace: "<p>Go to Ryanair's destination cheap fare finder through the blue button below.</p><p>At the bottom of the page, you'll see a calendar view of dates with prices under the dates Ryanair fly. Simply scroll through until you find dates you like, select them and click 'View Flights' to complete your booking with Ryanair.</p>
+    replace: >
+    <p>Go to Ryanair's destination cheap fare finder through the blue button below.</p><p>At the bottom of the page, you'll see a calendar view of dates with prices under the dates Ryanair fly. Simply scroll through until you find dates you like, select them and click 'View Flights' to complete your booking with Ryanair.</p>
+
   - trigger: "/tuionly"
     replace: >
-            <p>Click the blue button below to see TUI's calendar page - it&nbsp;makes finding cheap dates easy. Simply select your departure airport, and use the arrows on the top row of the calendar to scroll through the available dates.</p>Pick one of the trips at the prices listed above and click on the yellow 'Continue' button to finish your booking. Online Travel Agencies do not sell TUI flights cheaper than the airline.</p>
+    <p>Click the blue button below to see TUI's calendar page - it&nbsp;makes finding cheap dates easy. Simply select your departure airport, and use the arrows on the top row of the calendar to scroll through the available dates.</p>Pick one of the trips at the prices listed above and click on the yellow 'Continue' button to finish your booking. Online Travel Agencies do not sell TUI flights cheaper than the airline.</p>
+
   - trigger: "/gfnote"
     replace: >
-            <p><strong>Note:</strong> The price shown on the Google Flight's calendar may slightly differ to the price we have listed. The is due to the calendar not yet updating to reflect a price change. <a href="https://jacksflightclub.com/flight-quick-guides-page#no-price-match">Click here</a> to learn more. </p>
-<p>However, once you have selected your dates and clicked through to book with either the airline or an OTA the price should adjust to match what we listed.</p>
+    <p><strong>Note:</strong> The price shown on the Google Flight's calendar may slightly differ to the price we have listed. The is due to the calendar not yet updating to reflect a price change. <a href="https://jacksflightclub.com/flight-quick-guides-page#no-price-match">Click here</a> to learn more.</p>
+    <p>However, once you have selected your dates and clicked through to book with either the airline or an OTA the price should adjust to match what we listed.</p>
+
   - trigger: "/tapnote"
-    replace: "<p><strong>Note</strong>: Once you've selected your itinerary on TAP's website, you'll see a discounted fare automatically applied via the airline's loyalty programme (Miles&amp;Go).</p>
-<p>If you aren't a member of the programme, click the toggle next to the price under where it says 'Use miles to pay for your trip' to see your total without the discount. To learn more about whether it's worth signing up, read our guide <a href="https://jacksflightclub.com/flight-quick-guides-page#tap">here</a>. </p>"
+    replace: >
+    <p><strong>Note</strong>: Once you've selected your itinerary on TAP's website, you'll see a discounted fare automatically applied via the airline's loyalty programme (Miles&amp;Go).</p>
+    <p>If you aren't a member of the programme, click the toggle next to the price under where it says 'Use miles to pay for your trip' to see your total without the discount. To learn more about whether it's worth signing up, read our guide <a href="https://jacksflightclub.com/flight-quick-guides-page#tap">here</a>.</p>
 
   - trigger: "/vivabundle"
-    replace: "<p><strong>Note</strong>: some airlines, like Viva Aerobus, will automatically select their more expensive upgrade bundle when you click through to their website. Unless we've mentioned it in the 'Bags and fees' section above, the bundle is not worth paying more—you're likely better off adding what you need separately.</p>
-<p><a href="https://jacksflightclub.com/flight-quick-guides-page#viva-avianca">Read our guide</a> to know how to find the cheapest price on the airline's website. </p>"
+    replace: >
+    <p><strong>Note</strong>: some airlines, like Viva Aerobus, will automatically select their more expensive upgrade bundle when you click through to their website. Unless we've mentioned it in the 'Bags and fees' section above, the bundle is not worth paying more—you're likely better off adding what you need separately.</p>
+    <p><a href="https://jacksflightclub.com/flight-quick-guides-page#viva-avianca">Read our guide</a> to know how to find the cheapest price on the airline's website.</p>
 
   - trigger: "/aviancabundle"
-    replace: "<p><strong>Note</strong>: some airlines, like Avianca, will automatically select their more expensive upgrade bundle when you click through to their website. Unless we've mentioned it in the 'Bags and fees' section above, the bundle is not worth paying more—you're likely better off adding what you need separately.</p>
-<p><a href="https://jacksflightclub.com/flight-quick-guides-page#viva-avianca">Read our guide</a> to know how to find the cheapest price on the airline's website. </p>"
+    replace: >
+    <p><strong>Note</strong>: some airlines, like Avianca, will automatically select their more expensive upgrade bundle when you click through to their website. Unless we've mentioned it in the 'Bags and fees' section above, the bundle is not worth paying more—you're likely better off adding what you need separately.</p>
+    <p><a href="https://jacksflightclub.com/flight-quick-guides-page#viva-avianca">Read our guide</a> to know how to find the cheapest price on the airline's website.</p>
 
   - trigger: "/multicity"
-    replace: "<p>Read our <a href="https://jacksflightclub.com/flight-quick-guides-page#finding-multi-city-trips">quick guide to finding multi-city trips</a> if you need help loading more date options.</p>"
+    replace: >
+    <p>Read our <a href="https://jacksflightclub.com/flight-quick-guides-page#finding-multi-city-trips">quick guide to finding multi-city trips</a> if you need help loading more date options.</p>
 
   - trigger: "/copa"
-    replace: "<p><strong>Note</strong>: when you select your flights on Copa's website, you'll need the option to choose your fare class. It's always best to choose 'Economy Basic', unless you need to add a checked bag. Read our quick guide to selecting the right option <a href="https://jacksflightclub.com/flight-quick-guides-page#copa">here</a>. </p>"
+    replace: >
+    <p><strong>Note</strong>: when you select your flights on Copa's website, you'll need the option to choose your fare class. It's always best to choose 'Economy Basic', unless you need to add a checked bag. Read our quick guide to selecting the right option <a href="https://jacksflightclub.com/flight-quick-guides-page#copa">here</a>.</p>
 
   - trigger: "/currency"
-    replace: "<p><strong>Note:</strong> some airlines tend to change currency once you're redirected from Google Flights. It's worth reading our <a href="https://jacksflightclub.com/flight-quick-guides-page#change-currency">quick guide on which currency to pay with</a> before you book this deal. </p>"
+    replace: >
+    <p><strong>Note:</strong> some airlines tend to change currency once you're redirected from Google Flights. It's worth reading our <a href="https://jacksflightclub.com/flight-quick-guides-page#change-currency">quick guide on which currency to pay with</a> before you book this deal.</p>
