@@ -22,16 +22,16 @@ matches:
   - trigger: "/gfonly"
     replace: >
       <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p>
-      <p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p>
+      <p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https://jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p>
       <p>Once you find dates at the price we listed, get a link to book directly with the airline by selecting the outbound and return flights.</p>
 
   - trigger: "/gfota"
     replace: >
-      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>Once you find dates at the cheapest price, select the outbound and return flights to see booking options. You can book with an Online Travel Agent for the lowest price, or go directly with the airline.</p>
+      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https://jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>Once you find dates at the cheapest price, select the outbound and return flights to see booking options. You can book with an Online Travel Agent for the lowest price, or go directly with the airline.</p>
 
   - trigger: "/gf1"
     replace: >
-      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>You can find the cheapest fares with an Online Travel Agent in step two, or book with the airline once you select both flights on Google Flights.</p>
+      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https://jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>You can find the cheapest fares with an Online Travel Agent in step two, or book with the airline once you select both flights on Google Flights.</p>
 
   - trigger: "/sky2"
     replace: >
