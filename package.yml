@@ -27,7 +27,7 @@ matches:
 
   - trigger: "/gfota"
     replace: >
-      "<p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>Once you find dates at the cheapest price, select the outbound and return flights to see booking options. You can book with an Online Travel Agent for the lowest price, or go directly with the airline.</p>"
+      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https:/jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>Once you find dates at the cheapest price, select the outbound and return flights to see booking options. You can book with an Online Travel Agent for the lowest price, or go directly with the airline.</p>
 
   - trigger: "/gf1"
     replace: >
@@ -50,7 +50,8 @@ matches:
       <p>Start finding these trips on the Wizz Air website through the blue button below.</p>
       <p>Enter the origin and destination airports you want from those we have listed above.</p>
       <p>The page will reload with a calendar view. Change the calendar month to one you're interested in, and then look for the cheapest dates (highlighted in light blue on the calendar).</p>
-      <p>Once you've chosen your outbound and return flights, click "Start Booking" to continue. The airline offers the best price, so there&rsquo;s no need to compare with Online Travel Agencies.</p>
+      <p>Once you've chosen your outbound and return flights, click "Start Booking" to continue. The airline offers the best price, so there's no need to compare with Online Travel Agencies.</p>
+      <p><strong>Note</strong>: you'll see discounted prices listed on Wizz Air's website, but you need to sign up to the Wizz Discount Club to access them. Read our guide on whether it's worth it <a href="https://jacksflightclub.com/flight-quick-guides-page#wizz-air">here</a>.</p>
   
   - trigger: "/luftonly"
     replace: >
