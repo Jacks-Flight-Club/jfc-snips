@@ -35,11 +35,11 @@ matches:
 
   - trigger: "/sky2"
     replace: >
-      <p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Skyscanner lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Skyscanner, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Skyscanner with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>
+      <p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Skyscanner lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Skyscanner, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. If you don’t see the price we’ve listed, <a href='https://jacksflightclub.com/flight-quick-guides-page#sky-mom'>make sure to check the right region is selected</a>. <p>Book with the cheapest OTA or the one you like the most.</p> <p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Skyscanner with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>
 
   - trigger: "/mom2"
     replace: >
-      <p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Momondo lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Momondo, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Momondo with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>
+      <p>To get the lowest fares (listed above), book with an Online Travel Agent (OTA). Momondo lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Momondo, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. If you don’t see the price we’ve listed, <a href='https://jacksflightclub.com/flight-quick-guides-page#sky-mom'>make sure to check the right region is selected</a>. <p>Book with the cheapest OTA or the one you like the most.</p> <p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Momondo with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>
 
   - trigger: "/southwest"
     replace: >
@@ -83,7 +83,7 @@ matches:
 
   - trigger: "/important"
     replace: >
-      '<table class="go-dark-bg-blue" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:90%; background: #FFEFD6; border-radius: 6px;"><tr><td class="go-light" style="text-align:left; font-weight:400; font-size:16px; color:#000000; border-radius: 6px; padding: 0 10px 0 10px;"><p><b>👀 Important</b>:</p></td></tr></table>'
+      <table class="go-dark-bg-blue" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width:90%; background: #FFEFD6; border-radius: 6px;"><tr><td class="go-light" style="text-align:left; font-weight:400; font-size:16px; color:#000000; border-radius: 6px; padding: 0 10px 0 10px;"><p><b>👀 Important</b>:</p></td></tr></table>
 
   - trigger: "/wtbenelux"
     replace: >
@@ -137,3 +137,7 @@ matches:
   - trigger: "/currency"
     replace: >
       <p><strong>Note:</strong> some airlines tend to change currency once you're redirected from Google Flights. It's worth reading our <a href="https://jacksflightclub.com/flight-quick-guides-page#change-currency">quick guide on which currency to pay with</a> before you book this deal.</p>
+
+  - trigger: "/otaonly"
+    replace: >
+      <p><strong>Note</strong>: These flights are only available via Online Travel Agents, not with the airline. If you're not sure about booking with an OTA, <a href="https://jacksflightclub.com/travel-hub/is-it-safe-to-book-with-smaller-otas-on-momondo">our guide</a> should point you in the right direction. </p><p>It's also worth checking <a href="https://jacksflightclub.com/travel-hub/reviewing-the-most-popular-online-travel-agencies">our write-up</a> on the best and worst OTAs, to help you choose the right one.</p><p>If you'd rather book with the airline directly, it's probably worth waiting for another flight tip to this destination. </p>
