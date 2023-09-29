@@ -128,7 +128,13 @@ matches:
 
   - trigger: "/multicity"
     replace: >
-      <p>Read our <a href="https://jacksflightclub.com/flight-quick-guides-page#finding-multi-city-trips">quick guide to finding multi-city trips</a> if you need help loading more date options.</p>
+    <p>We recommend Google Flights to find this deal because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p>
+    <p>To make your trip a multi-city, start by changing your journey from "Round Trip" to "Multi-city" and clicking "Add flight."</p>
+    <p>Set the flights to match one of the itineraries below and click "Add flight". Finally, change the last flight to your home airport.</p>
+    <p>Then adjust the dates of each flight according to how long you'd like to stay at each and wait for the price to refresh. Keep adjusting if you don't see the deal price yet.</p>
+    <p>An alternative way to search for a broader range of dates is by searching for one-way trips on Google Flights. Just change where it says "Round Trip" to "One-way" - you'll need to have two tabs open to search for your departure and return.</p>
+    <p>From there, open a third tab on Google Flights, change it to "Multi-City" and enter the information from the other two tabs.</p>
+    <p>Read our <a href="https://jacksflightclub.com/flight-quick-guides-page#finding-multi-city-trips">quick guide to finding multi-city trips</a> if you need help loading more date options.</p>
 
   - trigger: "/copa"
     replace: >
