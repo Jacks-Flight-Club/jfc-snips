@@ -146,6 +146,12 @@ matches:
     replace: >
       <p><strong>Note:</strong> some airlines tend to change currency once you're redirected from Google Flights. It's worth reading our <a href="https://jacksflightclub.com/flight-quick-guides-page#change-currency">quick guide on which currency to pay with</a> before you book this deal.</p>
 
+  - trigger: "/jetblueonly"
+    replace: >
+      <p>Go to jetBlue's Best Fare Finder through the blue button below. At the top of the page, select &ldquo;Add return date&rdquo; and scroll down to a month listed in this tip on their calendar tool.</p>
+      <p>Look out for an outbound and inbound flight at the fare price we have listed. When you find dates that work for you, just tap 'see flights' to start booking.</p>
+      <p><strong>Note</strong>: If you plan on taking a checked bag anyway, the extra ~&pound;20 for the &ldquo;Blue&rdquo; cabin also comes with seat selection &amp; free changes/cancellations, which is a better value upgrade than most airlines offer.</p>
+
   - trigger: "/otaonly"
     replace: >
       <p><strong>Note</strong>: These flights are only available via Online Travel Agents, not with the airline. If you're not sure about booking with an OTA, <a href="https://jacksflightclub.com/travel-hub/is-it-safe-to-book-with-smaller-otas-on-momondo">our guide</a> should point you in the right direction. </p><p>It's also worth checking <a href="https://jacksflightclub.com/travel-hub/reviewing-the-most-popular-online-travel-agencies">our write-up</a> on the best and worst OTAs, to help you choose the right one.</p><p>If you'd rather book with the airline directly, it's probably worth waiting for another flight tip to this destination. </p>
