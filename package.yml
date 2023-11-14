@@ -169,7 +169,7 @@ matches:
   - trigger: "/bfearlyus"
     replace: >
       <p>This week you missed trips to COUNTRY at $ round trip, *FEATURE* in COUNTRY at $ round trip, *FEATURE* flights to at $ round trip, and more…</p>
-      <p>Our Early Bird Black Friday offer is here! Get 3 months of Premium for only $1 and, for a limited time, you canwin a Rimowa suitcase and $2000 towards your next trip!</p>
+      <p>Our Early Bird Black Friday offer is here! Get 3 months of Premium for only $1 and, for a limited time, you can win a Rimowa suitcase and $2000 towards your next trip!</p>
 
   - trigger: "/bfuk"
     replace: >
