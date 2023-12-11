@@ -110,7 +110,7 @@ matches:
 
   - trigger: "/gfnote"
     replace: >
-      <p><strong>Note:</strong> The price shown on the Google Flight's calendar may slightly differ to the price we have listed. The is due to the calendar not yet updating to reflect a price change. <a href="https://jacksflightclub.com/flight-quick-guides-page#no-price-match">Click here</a> to learn more.</p>
+      <p><strong>Note:</strong> The price shown on the Google Flight's calendar may slightly differ to the price we have listed. This is due to the calendar not yet updating to reflect a price change. <a href="https://jacksflightclub.com/flight-quick-guides-page#no-price-match">Click here</a> to learn more.</p>
       <p>However, once you have selected your dates and clicked through to book with either the airline or an OTA the price should adjust to match what we listed.</p>
 
   - trigger: "/tapnote"
