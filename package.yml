@@ -110,8 +110,8 @@ matches:
 
   - trigger: "/gfnote"
     replace: >
-      <p><strong>Note:</strong> The price shown on the Google Flight's calendar may slightly differ to the price we have listed. This is due to the calendar not yet updating to reflect a price change. <a href="https://jacksflightclub.com/flight-quick-guides-page#no-price-match">Click here</a> to learn more.</p>
-      <p>However, once you have selected your dates and clicked through to book with either the airline or an OTA the price should adjust to match what we listed.</p>
+      <p><strong>Note:</strong> The price shown on the Google Flights calendar may slightly differ to the price we have listed. This is due to the calendar not yet updating to reflect a price change. <a href="https://jacksflightclub.com/flight-quick-guides-page#no-price-match">Click here</a> to learn more.</p>
+      <p>However, once you have selected your dates and clicked through to book with either the airline or an OTA, the price should adjust to match what we listed.</p>
 
   - trigger: "/tapnote"
     replace: >
@@ -158,30 +158,30 @@ matches:
   
   - trigger: "/bfearlyuk"
     replace: >
-      <p>This week you missed trips to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more…</p>
-      <p>Our Early Bird Black Friday offer is here! Get 3 months of Premium for only £1 and, for a limited time, the chance to win 2 seats on a private jet flight!</p>
+      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more…</span></p>
+      <p><span style="font-weight: 400;">Our Early Bird Black Friday sale is on now! Get 3 months of Premium for £1, plus if you upgrade before Black Friday, you could win 2 seats on a private jet flight!</span></p>
 
   - trigger: "/bfearlyeu"
     replace: >
-      <p>This week you missed trips to COUNTRY at € return, *FEATURE* in COUNTRY at € return, *FEATURE* flights to at € return, and more…</p>
-      <p>Our Early Bird Black Friday offer is here! Get 3 months of Premium for only €1 and, for a limited time, the chance to win 2 seats on a private jet flight!</p>
+      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at </span><span style="font-weight: 400;">€</span><span style="font-weight: 400;"> return, *FEATURE* in COUNTRY at </span><span style="font-weight: 400;">€ </span><span style="font-weight: 400;">return, *FEATURE* flights to at </span><span style="font-weight: 400;">€</span><span style="font-weight: 400;"> return, and more…</span></p>
+      <p><span style="font-weight: 400;">Our Early Bird Black Friday sale is on now! Get 3 months of Premium for €1, plus if you upgrade before Black Friday, you could win 2 seats on a private jet flight!</span></p>
 
   - trigger: "/bfearlyus"
     replace: >
-      <p>This week you missed trips to COUNTRY at $ round trip, *FEATURE* in COUNTRY at $ round trip, *FEATURE* flights to at $ round trip, and more…</p>
-      <p>Our Early Bird Black Friday offer is here! Get 3 months of Premium for only $1 and, for a limited time, you can win a Rimowa suitcase and $2000 towards your next trip!</p>
+      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at $ round trip, *FEATURE* in COUNTRY at $ round trip, *FEATURE* flights to at $ round trip, and more…</span></p>
+      <p><span style="font-weight: 400;">Our Early Bird Black Friday sale is on now! Get 3 months of Premium for $1, plus if you upgrade before Black Friday, you could win a Rimowa suitcase and $2000 towards your next trip! </span></p>
 
   - trigger: "/bfuk"
     replace: >
-      <p>This week you missed trips to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more…</p>
-      <p>Get 3 months of Premium for £1 and you’ll see all the cheap flights and more weekend trips from your home airport, so you’ll never miss a flight tip again.</p>
+      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more…</span></p>
+      <p><span style="font-weight: 400;">Get 3 months of Premium for £1 and you’ll see all the cheap flights and more weekend trips from your home airport, so you’ll never miss a flight tip again.</span></p>
 
   - trigger: "/bfeu"
     replace: >
-      <p>This week you missed trips to COUNTRY at € return, *FEATURE* in COUNTRY at € return, *FEATURE* flights to at € return, and more…</p>
-      <p>Get 3 months of Premium for €1 and you’ll see all the cheap flights and more weekend trips from your home airport, so you’ll never miss a flight tip again.</p>
+      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at € return, *FEATURE* in COUNTRY at € return, *FEATURE* flights to at € return, and more…</span></p>
+      <p><span style="font-weight: 400;">Get 3 months of Premium for €1 and you’ll see all the cheap flights and more weekend trips from your home airport, so you’ll never miss a flight tip again.</span></p>
 
   - trigger: "/bfus"
     replace: >
-      <p>This week you missed trips to COUNTRY at $ round trip, *FEATURE* in COUNTRY at $ round trip, *FEATURE* flights to at $ round trip, and more...</p>
-      <p>Get 3 months of Premium for $1 and you’ll see all the cheap flights and more short-haul trips from your home airport, so you’ll never miss a flight tip again.</p>
+      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at $ round trip, *FEATURE* in COUNTRY at $ round trip, *FEATURE* flights to at $ round trip, and more...</span></p>
+      <p><span style="font-weight: 400;">Get 3 months of Premium for $1 and you’ll see all the cheap flights and more short-haul trips from your home airport, so you’ll never miss a flight tip again.</span></p>
