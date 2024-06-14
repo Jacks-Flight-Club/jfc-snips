@@ -185,3 +185,12 @@ matches:
     replace: >
       <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at $ round trip, *FEATURE* in COUNTRY at $ round trip, *FEATURE* flights to at $ round trip, and more...</span></p>
       <p><span style="font-weight: 400;">Get 3 months of Premium for $1 and you’ll see all the cheap flights and more short-haul trips from your home airport, so you’ll never miss a flight tip again.</span></p>
+
+  - trigger: "/westjet"
+    replace: >
+      <p><strong>Note</strong>: This deal is booked with WestJet’s new <a href="https://www.westjet.com/en-ca/news/2024/westjet-introduces-ultrabasic-">UltraBasic fare</a>. Unlike in the past, a carry-on is <b>not</b> included, you’ll be last to board, and you’ll be automatically booked into a middle seat at the back of the plane. If you want any perk at all, we’d recommend booking a higher tier of ticket.</p>
+
+  - trigger: "/bagnote"
+    replace: >
+      <p><strong>Note</strong>: Despite some OTAs stating that the fare does not include a checked bag, the airline does include a checked bag. Based on this, we would strongly assume that a checked bag is also included in all OTA fares, along with a full-size cabin bag.</p>
+      <p>If you want to guarantee that a checked bag is included, you can book with an OTA who explicitly states that one is included or directly with the airline.</p>
