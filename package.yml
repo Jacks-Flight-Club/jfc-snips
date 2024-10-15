@@ -8,17 +8,6 @@ parent: default
 
 matches:
 
-  - trigger: "/covid"
-    replace: >
-      <p><strong>Essential travel info: </strong></p>
-      <p style='text-align left;'>
-        <span style='text-decoration: underline;'>Flight changes</span>: When an airline offers a flexible change or cancellation policy, we'll note that here. Most airlines do charge a fee for making changes or cancelling a flight now.
-      </p>
-      <p style='text-align: left;'>
-        <span style='text-decoration: underline;'>Entry Requirements</span>: You can enter most countries normally with proof of vaccination - <a href='https://www.skyscanner.net/travel-restrictions'>Skyscanner</a> has a useful tool for double-checking requirements. Some countries do have extra testing or quarantine rules to enter if you're unvaccinated.
-      </p>
-
-
   - trigger: "/gfonly"
     replace: >
       <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p>
@@ -70,18 +59,6 @@ matches:
   - trigger: "/flex"
     replace: >
       <strong>Note:</strong> Airlines do tend to offer more flexibility for flight changes, so if you're at all worried about having to move your booking later down the line we recommend spending a little extra to book directly with the airline.
-
-  - trigger: "/ukteaser"
-    replace: >
-      This week you missed trips to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more..
-
-  - trigger: "/euteaser"
-    replace: >
-      This week you missed trips to COUNTRY at € return, *FEATURE* in COUNTRY at € return, *FEATURE* flights to COUNTRY at € return, and more..
-
-  - trigger: "/usteaser"
-    replace: >
-      This week you missed trips to COUNTRY at $ round trip, *FEATURE* flights to COUNTRY at $ round trip, *FEATURE* to COUNTRY at $ round trip, and more...
 
   - trigger: "/important"
     replace: >
@@ -155,36 +132,6 @@ matches:
   - trigger: "/otaonly"
     replace: >
       <p><strong>Note</strong>: These flights are only available via Online Travel Agencies, not with the airline. If you're not sure about booking with an OTA, <a href="https://jacksflightclub.com/travel-hub/is-it-safe-to-book-with-smaller-otas-on-momondo">our guide</a> should point you in the right direction. </p><p>It's also worth checking <a href="https://jacksflightclub.com/travel-hub/reviewing-the-most-popular-online-travel-agencies">our write-up</a> on the best and worst OTAs, to help you choose the right one.</p><p>If you'd rather book with the airline directly, it's probably worth waiting for another flight tip to this destination. </p>
-  
-  - trigger: "/bfearlyuk"
-    replace: >
-      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more…</span></p>
-      <p><span style="font-weight: 400;">Our Early Bird Black Friday sale is on now! Get 3 months of Premium for £1, plus if you upgrade before Black Friday, you could win 2 seats on a private jet flight!</span></p>
-
-  - trigger: "/bfearlyeu"
-    replace: >
-      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at </span><span style="font-weight: 400;">€</span><span style="font-weight: 400;"> return, *FEATURE* in COUNTRY at </span><span style="font-weight: 400;">€ </span><span style="font-weight: 400;">return, *FEATURE* flights to at </span><span style="font-weight: 400;">€</span><span style="font-weight: 400;"> return, and more…</span></p>
-      <p><span style="font-weight: 400;">Our Early Bird Black Friday sale is on now! Get 3 months of Premium for €1, plus if you upgrade before Black Friday, you could win 2 seats on a private jet flight!</span></p>
-
-  - trigger: "/bfearlyus"
-    replace: >
-      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at $ round trip, *FEATURE* in COUNTRY at $ round trip, *FEATURE* flights to at $ round trip, and more…</span></p>
-      <p><span style="font-weight: 400;">Our Early Bird Black Friday sale is on now! Get 3 months of Premium for $1, plus if you upgrade before Black Friday, you could win a Rimowa suitcase and $2000 towards your next trip! </span></p>
-
-  - trigger: "/bfuk"
-    replace: >
-      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at £ return, *FEATURE* in COUNTRY at £ return, *FEATURE* flights to at £ return, and more…</span></p>
-      <p><span style="font-weight: 400;">Get 3 months of Premium for £1 and you’ll see all the cheap flights and more weekend trips from your home airport, so you’ll never miss a flight tip again.</span></p>
-
-  - trigger: "/bfeu"
-    replace: >
-      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at € return, *FEATURE* in COUNTRY at € return, *FEATURE* flights to at € return, and more…</span></p>
-      <p><span style="font-weight: 400;">Get 3 months of Premium for €1 and you’ll see all the cheap flights and more weekend trips from your home airport, so you’ll never miss a flight tip again.</span></p>
-
-  - trigger: "/bfus"
-    replace: >
-      <p><span style="font-weight: 400;">This week you missed trips to COUNTRY at $ round trip, *FEATURE* in COUNTRY at $ round trip, *FEATURE* flights to at $ round trip, and more...</span></p>
-      <p><span style="font-weight: 400;">Get 3 months of Premium for $1 and you’ll see all the cheap flights and more short-haul trips from your home airport, so you’ll never miss a flight tip again.</span></p>
 
   - trigger: "/westjet"
     replace: >
@@ -194,3 +141,7 @@ matches:
     replace: >
       <p><strong>Note</strong>: Despite some OTAs stating that the fare does not include a checked bag, the airline does include a checked bag. Based on this, we would strongly assume that a checked bag is also included in all OTA fares, along with a full-size cabin bag.</p>
       <p>If you want to guarantee that a checked bag is included, you can book with an OTA who explicitly states that one is included or directly with the airline.</p>
+
+  - trigger: "/premeco"
+    replace: >
+      <p><strong>Note</strong>: For most trips labelled as ‘Premium Economy’, you will only be flying in the Premium Economy cabin on the longest leg of your trip. The shorter legs will likely be in Economy, but you will have the added bonus of the higher baggage allowance across every leg of your trip. Always double-check the details of each leg of your trip before you book.</p>
