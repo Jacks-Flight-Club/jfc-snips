@@ -107,12 +107,10 @@ matches:
 
   - trigger: "/multicity"
     replace: >
-      <p>We recommend Google Flights to find this deal because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p>
-      <p>To make your trip a multi-city, start by changing your journey from "Round Trip" to "Multi-city" and clicking "Add flight."</p>
-      <p>Set the flights to match one of the itineraries below and click "Add flight". Finally, change the last flight to your home airport.</p>
-      <p>Then adjust the dates of each flight according to how long you'd like to stay at each and wait for the price to refresh. Keep adjusting if you don't see the deal price yet.</p>
-      <p>An alternative way to search for a broader range of dates is by searching for one-way trips on Google Flights. Just change where it says "Round Trip" to "One-way" - you'll need to have two tabs open to search for your departure and return.</p>
-      <p>From there, open a third tab on Google Flights, change it to "Multi-City" and enter the information from the other two tabs.</p>
+      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p>
+      <p>Adjust the dates for each flight according to how long you'd like to stay in each city, and wait for the price to refresh. Keep adjusting the dates until you see the price listed above.</p>
+      <p>An alternative way to search for a broader range of trips is by looking for one-way flights. Change &ldquo;Multi-city&rdquo; to &ldquo;One-way&rdquo; (you may want to keep separate tabs open to search for your departure and return trips), and look for each of the individual flights until you find dates that work for you.</p>
+      <p>From there, re-enter your itinerary information in the &ldquo;Multi-City&rdquo; format, and click through to the last page of Google Flights to proceed to booking.</p>
       <p>Read our <a href="https://jacksflightclub.com/flight-quick-guides-page#finding-multi-city-trips">quick guide to finding multi-city trips</a> if you need help loading more date options.</p>
 
   - trigger: "/copa"
@@ -121,7 +119,7 @@ matches:
 
   - trigger: "/currency"
     replace: >
-      <p><strong>Note:</strong> some airlines tend to change currency once you're redirected from Google Flights. It's worth reading our <a href="https://jacksflightclub.com/flight-quick-guides-page#change-currency">quick guide on which currency to pay with</a> before you book this deal.</p>
+      <p><strong>Note:</strong> some airlines tend to change currency once you're redirected from Google Flights. It's worth reading our <a href="https://jacksflightclub.com/flight-quick-guides-page#change-currency">quick guide on which currency to pay with</a> before you book these trips.</p>
 
   - trigger: "/jetblueonly"
     replace: >
@@ -135,7 +133,7 @@ matches:
 
   - trigger: "/westjet"
     replace: >
-      <p><strong>Note</strong>: This deal is booked with WestJet’s new <a href="https://www.westjet.com/en-ca/news/2024/westjet-introduces-ultrabasic-">UltraBasic fare</a>. Unlike in the past, a carry-on is <b>not</b> included, you’ll be last to board, and you’ll be automatically booked into a middle seat at the back of the plane. If you want any perk at all, we’d recommend booking a higher tier of ticket.</p>
+      <p><strong>Note</strong>: These trips are booked with WestJet’s new <a href="https://www.westjet.com/en-ca/news/2024/westjet-introduces-ultrabasic-">UltraBasic fare</a>. Unlike in the past, a carry-on is <b>not</b> included, you’ll be last to board, and you’ll be automatically booked into a middle seat at the back of the plane. If you want any perk at all, we’d recommend booking a higher tier of ticket.</p>
 
   - trigger: "/bagnote"
     replace: >
@@ -145,3 +143,13 @@ matches:
   - trigger: "/premeco"
     replace: >
       <p><strong>Note</strong>: For most trips labelled as ‘Premium Economy’, you will only be flying in the Premium Economy cabin on the longest leg of your trip. The shorter legs will likely be in Economy, but you will have the added bonus of the higher baggage allowance across every leg of your trip. Always double-check the details of each leg of your trip before you book.</p>
+
+  - trigger: "/aerlong"
+    replace: >
+      <p><strong>Note</strong>: While Aer Lingus has tighter carry-on/cabin bag restrictions on flights within Europe, on long-haul flights to/from <strong>North America</strong>, each passenger is allowed to take a 10kg bag into the cabin with them, free of charge.</p>
+
+  - trigger: "/aershort"
+    replace: >
+      <p><strong>Note</strong>: On short-haul Aer Lingus flights within Europe, each passenger is allowed to take a 10kg bag with them. It is free of charge to have the bag checked in once you arrive at the airport, or you can pay a small fee when booking your flights to take it into the cabin.</p>
+      <p>This <strong>must</strong> be added on while you're making the booking. If you don't, and turn up to the boarding gate with the bag, you may be charged an additional fee. There is also a possibility that it is sold out at the time of making your booking, in that case the bag will have to be checked in.</p>
+      <p>[<strong>&iexcl;</strong><em><strong>optional depending on your routes, eg. Dublin to the Isle of Man or Aberdeen!</strong></em>] On short-haul <strong>regional</strong> flights, each passenger is allowed to take a 7kg bag into the cabin with them, free of charge.</p>
