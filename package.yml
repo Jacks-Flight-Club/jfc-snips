@@ -153,3 +153,15 @@ matches:
       <p><strong>Note</strong>: On short-haul Aer Lingus flights within Europe, each passenger is allowed to take a 10kg bag with them. It is free of charge to have the bag checked in once you arrive at the airport, or you can pay a small fee when booking your flights to take it into the cabin.</p>
       <p>This <strong>must</strong> be added on while you're making the booking. If you don't, and turn up to the boarding gate with the bag, you may be charged an additional fee. There is also a possibility that it is sold out at the time of making your booking, in that case the bag will have to be checked in.</p>
       <p>[<strong>&iexcl;</strong><em><strong>optional depending on your routes, eg. Dublin to the Isle of Man or Aberdeen!</strong></em>] On short-haul <strong>regional</strong> flights, each passenger is allowed to take a 7kg bag into the cabin with them, free of charge.</p>
+
+  - trigger: "/luftprem"
+    replace: >
+      <table class="go-dark-bg-blue" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 90%; background: #FFEFD6; border-radius: 6px;">
+      <tbody>
+      <tr>
+      <td class="go-light" style="text-align: left; font-weight: 400; font-size: 16px; color: #000000; border-radius: 6px; padding: 0 10px 0 10px;">
+      <p><b>👀 Important</b>: After you select your dates on the Google Flights calendar and click the link to book on Lufthansa's website, you may be redirected to economy flights instead of premium economy. If this happens, simply re-enter your itinerary on the home page, making sure to select the premium economy fare class.</p>
+      </td>
+      </tr>
+      </tbody>
+      </table>
