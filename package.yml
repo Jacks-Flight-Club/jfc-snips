@@ -156,4 +156,12 @@ matches:
 
   - trigger: "/luftprem"
     replace: >
-      <p>After you select your dates on the Google Flights calendar and click the link to book on Lufthansa's website, you may be redirected to economy flights instead of premium economy. If this happens, simply re-enter your itinerary on the home page, making sure to select the premium economy fare class.</p>
+      <table class="go-dark-bg-blue" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 90%; background: #FFEFD6; border-radius: 6px;">
+      <tbody>
+      <tr>
+      <td class="go-light" style="text-align: left; font-weight: 400; font-size: 16px; color: #000000; border-radius: 6px; padding: 0 10px 0 10px;">
+      <p><b>👀 Important</b>: After you select your dates on the Google Flights calendar and click the link to book on Lufthansa's website, you may be redirected to economy flights instead of premium economy. If this happens, simply re-enter your itinerary on the home page, making sure to select the premium economy fare class.</p>
+      </td>
+      </tr>
+      </tbody>
+      </table>
