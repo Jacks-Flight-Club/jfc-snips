@@ -190,7 +190,7 @@ matches:
       <p>[First name] sent us a postcard when they went to [destination]: "[postcard text]".</p>
       <p>Send us a <a href="https://jacksflightclub.com/jacks-flight-club-review">Postcard</a> if you book this trip!</p>
 
- - trigger: "/perks"
+  - trigger: "/perks"
     replace: >
       <p>You have access to exclusive perks, from theme parks to lounges or car rental companies... <a href="https://members.jacksflightclub.com/perks">Check them out</a> before you plan your next trip!</p>
 
