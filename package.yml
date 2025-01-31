@@ -165,3 +165,47 @@ matches:
       </tr>
       </tbody>
       </table>
+
+  - trigger: "/fbgroup"
+    replace: >
+      <p>Thanks to [first name] in our <a href="https://www.facebook.com/groups/jacksflightclub/">JFC Facebook Community</a> for the tip!</p>
+      <p>Join the group for more tips on [destination/topic] straight from your fellow JFC-ers.</p>
+
+  - trigger: "/socials"
+    replace: >
+      <p>ICYMI this post on our socials... [explainer of how it's related to the deal]</p>
+      <p>Tag us in pics of your trip if you snag one of these fares :-)</p>
+      <p>(link to specific post/platform)</p>
+
+  - trigger: "/travelhub"
+    replace: >
+      <p>Visit our <a href="https://members.jacksflightclub.com/travel-hub">Travel Hub</a> for our flight-hacking expertise, destination guides and past editions of the Detour all in one place!</p>
+
+  - trigger: "/snacks"
+    replace: >
+      <p>For more short-haul flights and weekend trips, check out the <a href="https://members.jacksflightclub.com/snacks">Snacks section</a> in your Member's Lounge. Add more short-haul airports to your profile and get even more content!</p>
+
+  - trigger: "/postcard"
+    replace: >
+      <p>[First name] sent us a postcard when they went to [destination]: "[postcard text]".</p>
+      <p>Send us a <a href="https://jacksflightclub.com/jacks-flight-club-review">Postcard</a> if you book this trip!</p>
+
+ - trigger: "/perks"
+    replace: >
+      <p>You have access to exclusive perks, from theme parks to lounges or car rental companies... <a href="https://members.jacksflightclub.com/perks">Check them out</a> before you plan your next trip!</p>
+
+  - trigger: "/app"
+    replace: >
+      <p>Stay in the loop about our latest deals (and be the first to see those elusive error fares) with <a href="https://jacksflightclub.com/app-get-cheap-flight-alerts">our app</a>! Just make sure to turn on notifications :-)</p>
+
+  - trigger: "/badges"
+    replace: >
+      <p>Have you checked your <a href="https://members.jacksflightclub.com/badges">badges</a> recently? By sending us a postcard, referring a friend to JFC, completing your profile (and more), you earn points. The more points, the better chance you've got to win free flights in our monthly prize draw! 💸</p>
+
+  - trigger: "/detour"
+    replace: >
+      <p>Pssst: Get more inspirational stories and handy tips delivered straight to your inbox via our weekly newsletter, The Detour 💌 Check that you're subscribed in the <a href="https://members.jacksflightclub.com/settings/alerts">Member's Lounge</a>.</p>
+
+  - trigger: "/gift"
+    replace: >
+      <p><a href="https://members.jacksflightclub.com/settings/refer">Give the gift of JFC</a>! You can now buy your travel buddy a year's worth of JFC premium. Share the love and show them why being part of the JFC community is so special ✈️</p>
