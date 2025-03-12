@@ -88,7 +88,7 @@ matches:
   - trigger: "/gfnote"
     replace: >
       <p><strong>Note:</strong> The price shown on the Google Flights calendar may slightly differ to the price we have listed. This is due to the calendar not yet updating to reflect a price change. <a href="https://jacksflightclub.com/flight-quick-guides-page#no-price-match">Click here</a> to learn more.</p>
-      <p>However, once you have selected your dates and clicked through to book with either the airline or an OTA, the price should adjust to match what we listed.</p>
+      <p>However, once you have selected your dates and clicked through to book with either the airline or an OTA, the price should adjust to match what we listed. If it doesn't, refresh the page 2–6 times until the correct price shows up.</p>
 
   - trigger: "/tapnote"
     replace: >
@@ -216,4 +216,4 @@ matches:
 
   - trigger: "/refresh"
     replace: >
-      <p>The final price we listed for these flights may not show up right away — this is because Google Flights sometimes has trouble loading all the OTAs available for your trip right away. You should be able to see the correct price after refreshing the page 2-6 times.</p>
+      <p><strong>Note</strong>: The final price we listed for these flights may not show up right away — this is because Google Flights sometimes has trouble loading all the OTAs available for your trip right away. You should be able to see the correct price after refreshing the page 2-6 times.</p>
