@@ -58,7 +58,7 @@ matches:
 
   - trigger: "/flex"
     replace: >
-      <strong>Note:</strong> Airlines do tend to offer more flexibility for flight changes, so if you're at all worried about having to move your booking later down the line we recommend spending a little extra to book directly with the airline.
+      <strong>Note:</strong> You may notice a price drop on these trips when you reach the last page of Google Flights. While getting these flights through an Online Travel Agency may be slightly cheaper, we recommend spending a little extra to book directly with the airline for peace of mind, since the price difference is minor, and airlines generally offer more flexibility for flight changes.</p>
 
   - trigger: "/important"
     replace: >
@@ -209,3 +209,11 @@ matches:
   - trigger: "/gift"
     replace: >
       <p><a href="https://members.jacksflightclub.com/settings/refer">Give the gift of JFC</a>! You can now buy your travel buddy a year's worth of JFC premium. Share the love and show them why being part of the JFC community is so special ✈️</p>
+
+  - trigger: "/range"
+    replace: >
+      <p>Depending on your travel dates, there's a price range for these flights <b>in PRICE RT/rtn</b>. </p>
+
+  - trigger: "/refresh"
+    replace: >
+      <p>The final price we listed for these flights may not show up right away — this is because Google Flights sometimes has trouble loading all the OTAs available for your trip right away. You should be able to see the correct price after refreshing the page 2-6 times.</p>
