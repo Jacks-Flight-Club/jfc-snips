@@ -66,16 +66,41 @@ matches:
 
   - trigger: "/wtbenelux"
     replace: >
-      <p style="text-align: center;"><strong>Weekend trips from the Netherlands, Belgium &amp; Luxembourg!</strong></p><p>Once a week, we collect all the best value short-haul weekend trips we find from every airport in the Netherlands, Belgium &amp; Luxembourg.</p><p>Our goal is to dig out a variety of short getaways that go easy on your vacation days, no matter where you are!</p><p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p><table class=" go-dark-bg" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; background: #D7F4FF; border-radius: 12px;"><tbody><tr><td class="go-light" align="center" style="text-align: left; color: #000000; border-radius: 6px; padding: 0 10px 0 10px;"><p style="text-align: left;"><strong>Your new weekend trip email!</strong></p><p style="text-align: left;">A few of the improvements we've made:</p><ul><li style="text-align: left;">Our suggestions are cheaper because we're now looking for trips through the coming year, instead of in a specific month.</li><li style="text-align: left;">If you use our app or <a href="https://portal.jacksflightclub.com/snacks">log in to our portal</a>, you'll often find more dates for your local airport in the Snacks section.</li><li style="text-align: left;">You'll also find lots more short-haul trip suggestions without a weekend focus in the Snacks section.</li><li style="text-align: left;">We check prices through the week, so our weekend trip suggestions are always up-to-date when you look on our app and portal.</li></ul></td></tr></tbody></table><p><strong>p.s.</strong> In case you're wondering, this week's banner image features City!</p>
+      <p style="text-align: center;"><strong>Weekend trips from the Netherlands, Belgium, Luxembourg &amp; Paris!</strong></p>
+      <p>Once a week, we collect all the best value short-haul weekend trips we find from every airport in the Netherlands, Belgium, Luxembourg &amp; Paris.</p>
+      <p>Our goal is to dig out a variety of short <strong>getaways</strong> that go easy on your vacation days, no matter where you are!</p>
+      <p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p>
+      <p>If you use our app or <a href="https://portal.jacksflightclub.com/deals" target="_blank" rel="noopener">log in to our members' lounge</a>, you'll often find more dates for these routes (and many more short-haul flights!).</p>
+      <p><strong>p.s.</strong> In case you're wondering, this week's banner image features [city]!</p>
+
+  - trigger: "/wtde"
+    replace: >
+      <p style="text-align: center;"><strong>Weekend trips from Germany!</strong></p>
+      <p>Once a week, we collect all the best value short-haul weekend trips we find from every airport in Germany.</p>
+      <p>Our goal is to dig out a variety of short <strong>getaways</strong> that go easy on your vacation days, no matter where you are!</p>
+      <p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p>
+      <p>If you use our app or <a href="https://portal.jacksflightclub.com/deals" target="_blank" rel="noopener">log in to our members' lounge</a>, you'll often find more dates for these routes (and many more short-haul flights!).</p>
+      <p><strong>p.s.</strong> In case you're wondering, this week's banner image features [city]!</p>
+
+
+  - trigger: "/wtscandi"
+    replace: >
+      <p style="text-align: center;"><strong>Weekend trips from Scandinavia!</strong></p>
+      <p>Once a week, we collect all the best value short-haul weekend trips we find from every airport in Denmark, Norway &amp; Sweden.</p>
+      <p>Our goal is to dig out a variety of short<strong> getaways</strong> that go easy on your vacation days, no matter where you are!</p>
+      <p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p>
+      <p>If you use our app or <a href="https://portal.jacksflightclub.com/deals" target="_blank" rel="noopener">log in to our members' lounge</a>, you'll often find more dates for these routes (and many more short-haul flights!).</p>
+      <p><strong>p.s.</strong> In case you're wondering, this week's banner image features [city]!</p>
+
 
   - trigger: "/wtuk"
     replace: >
       <p style="text-align: center;"><strong>Weekend trips from the UK &amp; Ireland!</strong></p>
-      <p>Once a week, we collect all the best value short-haul weekend trips we find from every airport in the UK &amp; Ireland.</p>
-      <p>Our goal is to dig out a variety of short getaways that go easy on your annual leave, no matter where you are!</p>
-      <p>Simply tap on the flight you're interested in below and continue to the airline or travel agency to book :-)</p>
-      <p>If you use our app or <a href="https://portal.jacksflightclub.com/snacks">log in to our portal</a>, you'll often find more dates for these routes (and many more short-haul trips!) in the Snacks section.</p>
-      <p><strong>p.s.</strong> In case you're wondering, this week's banner image features City!</p>
+      <p>Once a week, we collect all of the best value short-haul weekend trips we find, from every airport in the UK &amp; Ireland.</p>
+      <p>Our goal is to dig out a variety of short <strong>getaways</strong> that go easy on your annual leave, no matter where you are!</p>
+      <p>Simply tap on the flight you're interested in below and proceed to book with the airline or travel agent :-)</p>
+      <p>If you use our app or <a href="https://portal.jacksflightclub.com/deals" target="_blank" rel="noopener">log in to our members' lounge</a>, you'll often find more dates for these routes (and many more short-haul flights!).</p>
+      <p><strong>p.s.</strong> In case you're wondering, this week's banner image features [city]!</p>
 
   - trigger: "/ryanonly"
     replace: >
@@ -181,9 +206,9 @@ matches:
     replace: >
       <p>Visit our <a href="https://members.jacksflightclub.com/travel-hub">Travel Hub</a> for our flight-hacking expertise, destination guides and past editions of the Detour all in one place!</p>
 
-  - trigger: "/snacks"
+  - trigger: "/getaways"
     replace: >
-      <p>For more short-haul flights and weekend trips, check out the <a href="https://members.jacksflightclub.com/snacks">Snacks section</a> in your Member's Lounge. Add more short-haul airports to your profile and get even more content!</p>
+      <p>For more short-haul flights and weekend trips, check out your <a href="https://members.jacksflightclub.com/deals">Members' Lounge</a>. Add more short-haul airports to your profile and get even more content!</p>
 
   - trigger: "/postcard"
     replace: >
@@ -204,7 +229,7 @@ matches:
 
   - trigger: "/detour"
     replace: >
-      <p>Pssst: Get more inspirational stories and handy tips delivered straight to your inbox via our weekly newsletter, The Detour 💌 Check that you're subscribed in the <a href="https://members.jacksflightclub.com/settings/alerts">Member's Lounge</a>.</p>
+      <p>Pssst: Get more inspirational stories and handy tips delivered straight to your inbox via our weekly newsletter, The Detour 💌 Check that you're subscribed in the <a href="https://members.jacksflightclub.com/settings/alerts">Members' Lounge</a>.</p>
 
   - trigger: "/gift"
     replace: >
