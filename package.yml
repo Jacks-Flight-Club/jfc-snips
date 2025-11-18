@@ -242,3 +242,7 @@ matches:
   - trigger: "/refresh"
     replace: >
       <p><strong>Note</strong>: The final price we listed for these flights may not show up right away — this is because Google Flights sometimes has trouble loading all the OTAs available for your trip right away. You should be able to see the correct price after refreshing the page 2-6 times.</p>
+
+  - trigger: "/airlineonly"
+    replace: >
+      <p>Find these fares by visiting&nbsp;<strong>[airline's website with link]</strong>.</p><p>Enter your departure and destination, and select your preferred travel dates before continuing.&nbsp;</p><p><strong>[EDIT THIS PART OUT IF NOT RELEVANT]: </strong>You can select your travel dates are flexible to see all the available flights around your travel dates.</p><p><strong>[EDIT THIS PART OUT IF NOT RELEVANT]: </strong>You can also use this calendar view to select your travel dates.</p><p>You will be redirected to a page where you can choose your departure and return flights. Once you find trips at the price we've listed, select your flights and proceed to booking with the airline.</p>
