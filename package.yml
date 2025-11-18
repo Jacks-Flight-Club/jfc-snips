@@ -16,20 +16,20 @@ matches:
 
   - trigger: "/gfota"
     replace: >
-      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https://jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>Once you find dates at the cheapest price, select the outbound and return flights to see booking options. You can book with an Online Travel Agency for the lowest price, or go directly with the airline.</p>
+      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https://jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>Once you find dates at the cheapest price, select the outbound and return flights to see booking options. You can book with an online travel agency for the lowest price, or go directly with the airline.</p>
 
   - trigger: "/gf1"
     replace: >
-      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https://jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>You can find the cheapest fares with an Online Travel Agency in step two, or book with the airline once you select both flights on Google Flights.</p>
+      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below.</p><p>Select one of the date boxes to expand the calendar view and see fares for each departure date. The fares shown will update if you pick a longer or shorter trip - <a href="https://jacksflightclub.com/flight-quick-guides-page#trip-length">trying different lengths can reveal more options</a>.</p><p>You can find the cheapest fares with an online travel agency in step two, or book with the airline once you select both flights on Google Flights.</p>
 
   - trigger: "/sky2"
     replace: >
-      <p>To get the lowest fares (listed above), book with an Online Travel Agency (OTA). Skyscanner lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Skyscanner, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. If you don’t see the price we’ve listed, <a href='https://jacksflightclub.com/flight-quick-guides-page#sky-mom'>make sure to check the region is correct on the top right-hand corner</a>. <p>Book with the cheapest OTA or the one you like the most.</p>
+      <p>To get the lowest fares (listed above), book with an online travel agency (OTA). Skyscanner lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Skyscanner, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. If you don’t see the price we’ve listed, <a href='https://jacksflightclub.com/flight-quick-guides-page#sky-mom'>make sure to check the region is correct on the top right-hand corner</a>. <p>Book with the cheapest OTA or the one you like the most.</p>
       <p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Skyscanner with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>
 
   - trigger: "/mom2"
     replace: >
-      <p>To get the lowest fares (listed above), book with an Online Travel Agency (OTA). Momondo lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Momondo, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. If you don’t see the price we’ve listed, <a href='https://jacksflightclub.com/flight-quick-guides-page#sky-mom'>make sure to check the region is correct on the left-hand side</a>. <p>Book with the cheapest OTA or the one you like the most.</p>
+      <p>To get the lowest fares (listed above), book with an online travel agency (OTA). Momondo lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Momondo, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. If you don’t see the price we’ve listed, <a href='https://jacksflightclub.com/flight-quick-guides-page#sky-mom'>make sure to check the region is correct on the left-hand side</a>. <p>Book with the cheapest OTA or the one you like the most.</p>
       <p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Momondo with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>
 
   - trigger: "/southwest"
@@ -41,7 +41,7 @@ matches:
       <p>Start finding these trips on the Wizz Air website through the blue button below.</p>
       <p>Enter the origin and destination airports you want from those we have listed above.</p>
       <p>The page will reload with a calendar view. Change the calendar month to one you're interested in, and then look for the cheapest dates (highlighted in light blue on the calendar).</p>
-      <p>Once you've chosen your outbound and return flights, click "Start Booking" to continue. The airline offers the best price, so there's no need to compare with Online Travel Agencies.</p>
+      <p>Once you've chosen your outbound and return flights, click "Start Booking" to continue. The airline offers the best price, so there's no need to compare with online travel agencies.</p>
       <p><strong>Note</strong>: you'll see discounted prices listed on Wizz Air's website, but you need to sign up to the Wizz Discount Club to access them. Read our guide on whether it's worth it <a href="https://jacksflightclub.com/flight-quick-guides-page#wizz-air">here</a>.</p>
   
   - trigger: "/luftonly"
@@ -58,7 +58,7 @@ matches:
 
   - trigger: "/flex"
     replace: >
-      <strong>Note:</strong> You may notice a price drop on these trips when you reach the last page of Google Flights. While getting these flights through an Online Travel Agency may be slightly cheaper, we recommend spending a little extra to book directly with the airline for peace of mind, since the price difference is minor, and airlines generally offer more flexibility for flight changes.</p>
+      <strong>Note:</strong> You may notice a price drop on these trips when you reach the last page of Google Flights. While getting these flights through an online travel agency may be slightly cheaper, we recommend spending a little extra to book directly with the airline for peace of mind, since the price difference is minor, and airlines generally offer more flexibility for flight changes.</p>
 
   - trigger: "/important"
     replace: >
@@ -108,7 +108,7 @@ matches:
 
   - trigger: "/tuionly"
     replace: >
-      <p>Click the blue button below to see TUI's calendar page - it&nbsp;makes finding cheap dates easy. Simply select your departure airport, and use the arrows on the top row of the calendar to scroll through the available dates.</p>Pick one of the trips at the prices listed above and click on the yellow 'Continue' button to finish your booking. Online Travel Agencies do not sell TUI flights cheaper than the airline.</p>
+      <p>Click the blue button below to see TUI's calendar page - it&nbsp;makes finding cheap dates easy. Simply select your departure airport, and use the arrows on the top row of the calendar to scroll through the available dates.</p>Pick one of the trips at the prices listed above and click on the yellow 'Continue' button to finish your booking. Online travel agencies do not sell TUI flights cheaper than the airline.</p>
 
   - trigger: "/gfnote"
     replace: >
@@ -154,7 +154,7 @@ matches:
 
   - trigger: "/otaonly"
     replace: >
-      <p><strong>Note</strong>: These flights are only available via Online Travel Agencies, not with the airline. If you're not sure about booking with an OTA, <a href="https://jacksflightclub.com/travel-hub/is-it-safe-to-book-with-smaller-otas-on-momondo">our guide</a> should point you in the right direction. </p><p>It's also worth checking <a href="https://jacksflightclub.com/travel-hub/reviewing-the-most-popular-online-travel-agencies">our write-up</a> on the best and worst OTAs, to help you choose the right one.</p><p>If you'd rather book with the airline directly, it's probably worth waiting for another flight tip to this destination. </p>
+      <p><strong>Note</strong>: These flights are only available via online travel agencies, not with the airline. If you're not sure about booking with an OTA, <a href="https://jacksflightclub.com/travel-hub/is-it-safe-to-book-with-smaller-otas-on-momondo">our guide</a> should point you in the right direction. </p><p>It's also worth checking <a href="https://jacksflightclub.com/travel-hub/reviewing-the-most-popular-online-travel-agencies">our write-up</a> on the best and worst OTAs, to help you choose the right one.</p><p>If you'd rather book with the airline directly, it's probably worth waiting for another flight tip to this destination. </p>
 
   - trigger: "/westjet"
     replace: >
