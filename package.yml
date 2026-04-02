@@ -250,3 +250,7 @@ matches:
   - trigger: "/firstclass"
     replace: >
       <p><strong>Note</strong>: For most trips labelled as ‘First Class’, you will be flying in the First Class cabin on the longest leg of your trip, and in the Business Class cabin on the shorter legs. This may mean that you have an extra-reclining seat rather than a lie-flat seat, but you will have the added bonus of the higher baggage allowance, <a href="https://onemileatatime.com/guides/best-first-class-lounges/">lounge access</a>, and priority boarding across every leg of your trip. Always double-check the details of each leg of your trip before you book.</p>
+ 
+  - trigger: "/gftest"
+    replace: >
+      <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below, and then continue your booking with the airline.</p>
