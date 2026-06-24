@@ -29,8 +29,7 @@ matches:
 
   - trigger: "/mom2"
     replace: >
-      <p>To get the lowest fares (listed above), book with an online travel agency (OTA). Momondo lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Momondo, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. If you don’t see the price we’ve listed, <a href='https://jacksflightclub.com/flight-quick-guides-page#sky-mom'>make sure to check the region is correct on the left-hand side</a>. <p>Book with the cheapest OTA or the one you like the most.</p>
-      <p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Momondo with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>
+      <p>To get the lowest fares (listed above), book with an online travel agency (OTA). Momondo lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Momondo, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds.&nbsp;Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Momondo with our <a href="https://jacksflightclub.com/fare-compare-extension">Fare Compare browser extension</a>. One click and you're done :-)</p><table align="center" border="0" cellpadding="0" cellspacing="0" class="go-dark-bg-blue" role="presentation" style="width: 90%; background: #FFEFD6; border-radius: 6px;"><tbody><tr><td class="go-light" style="text-align: left; font-weight: 400; font-size: 16px; color: #000000; border-radius: 6px; padding: 0 10px 0 10px;"><p><b>👀 Important</b>: Momondo may ask you to list an email when you click through to book. To avoid this, close the dialogue box, right-click on the "Book" button, and select "Open link in new tab". You should be re-directed to the OTA selling the tickets.</p></td></tr></tbody></table>
 
   - trigger: "/southwest"
     replace: >
@@ -254,3 +253,7 @@ matches:
   - trigger: "/gftest"
     replace: >
       <p>We recommend Google Flights to find these trips because it has an easy-to-use calendar tool to browse dates and fares. See an example itinerary by pressing the blue button below, and then continue your booking with the airline.</p>
+
+  - trigger: "/kayak"
+    replace: >
+      <p>To get the lowest fares (listed above), book with an online travel agency (OTA). Kayak lists OTAs that are the cheapest for these trips - see an example through the blue button below.</p><p>On Kayak, enter the itinerary you found in step one and wait for the search to finish loading - it can take 20-30 seconds. Book with the cheapest OTA or the one you like the most.</p><p><b>Top tip</b>: Quickly convert your Google Flights finds to searches on Kayak with our <a href='https://jacksflightclub.com/fare-compare-extension'>Fare Compare browser extension</a>. One click and you're done :-)</p>
